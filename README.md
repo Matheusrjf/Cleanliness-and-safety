@@ -21,3 +21,30 @@ Exclusão segura de arquivos
 Gerenciamento de programas de inicialização (Windows)
 
 Scanner de vulnerabilidades básico
+
+Instale o pyinstaller:
+
+bash
+Copiar
+Editar
+pip install pyinstaller
+Extraia o ZIP enviado
+
+Navegue até a pasta extraída no terminal (CMD ou PowerShell):
+
+bash
+Copiar
+Editar
+cd caminho\\para\\ccleaner_seguro
+Gere o .exe com este comando:
+
+bash
+Copiar
+Editar
+pyinstaller --noconfirm --onefile --windowed main.py
+O executável estará em:
+
+bash
+Copiar
+Editar
+dist/main.exe
