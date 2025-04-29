@@ -22,6 +22,8 @@ Gerenciamento de programas de inicialização (Windows)
 
 Scanner de vulnerabilidades básico
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Instale o pyinstaller:
 
 bash
